@@ -10,14 +10,16 @@ import banner1 from "../../../../../assets/images/Homepage/img-01-1.png";
 import banner2 from "../../../../../assets/images/Homepage/img-03-2.png";
 import banner3 from "../../../../../assets/images/Homepage/img-02-3.png";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/shadcn/button";
+import Searchbox from "@/components/ui/searchbox/Searchbox";
+
 
 const Homebanner = () => {
   return (
     <div className="bg-[#32B9A9] h-screen">
       <div className="w-[90%] mx-auto ">
         <Carousel className="flex justify-center  items-center">
-          <CarouselContent className=" mt-40 -ml-32">
+          <CarouselContent className=" mt-28 -ml-32">
             <CarouselItem>
               <div className="flex justify-center items-center">
                 <Image
@@ -33,8 +35,7 @@ const Homebanner = () => {
                     <h2 className="mb-1">Medical Facility</h2>
                   </div>
                   <div className="flex justify-evenly mt-5 ml-10">
-                    {/* <Button></Button> */}
-                    <Button className="bg-[#3E8CFF]">View Hospital</Button>
+                    <Button className="">View Hospital</Button>
                     <Button>View Doctor</Button>
                     <Button>View Blood</Button>
                   </div>
@@ -56,8 +57,7 @@ const Homebanner = () => {
                     <h2 className="mb-1">Medical Facility</h2>
                   </div>
                   <div className="flex justify-evenly mt-5 ml-10">
-                    {/* <Button></Button> */}
-                    <Button className="bg-[#3E8CFF]">View Hospital</Button>
+                    <Button >View Hospital</Button>
                     <Button>View Doctor</Button>
                     <Button>View Blood</Button>
                   </div>
@@ -79,8 +79,7 @@ const Homebanner = () => {
                     <h2 className="mb-1">Medical Facility</h2>
                   </div>
                   <div className="flex justify-evenly mt-5 ml-10">
-                    {/* <Button></Button> */}
-                    <Button className="bg-[#3E8CFF]">View Hospital</Button>
+                    <Button>View Hospital</Button>
                     <Button>View Doctor</Button>
                     <Button>View Blood</Button>
                   </div>
@@ -93,6 +92,8 @@ const Homebanner = () => {
           <CarouselNext />
         </Carousel>
       </div>
+
+      <Searchbox />
     </div>
   );
 };
