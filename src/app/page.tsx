@@ -1,11 +1,7 @@
-
+import MainHome from "@/components/pages/mainpage/Home/Home/MainHome";
 
 const Home = () => {
-  return (
-    <div>
-      <h1>Welcome to care bd home page</h1>
-    </div>
-  );
+  return <MainHome />;
 };
 
 export default Home;
