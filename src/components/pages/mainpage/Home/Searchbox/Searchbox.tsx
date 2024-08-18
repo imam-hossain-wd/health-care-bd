@@ -1,9 +1,9 @@
+import { Form } from "@/components/ui/shadcn/form";
 
 
 const Searchbox = () => {
     return (
-        <div>
-            
+        <div className="">
         </div>
     );
 };
