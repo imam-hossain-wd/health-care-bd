@@ -1,3 +1,5 @@
+
+
 "use client";
 import { Form } from "@/components/ui/Form/Form";
 import { TextInput } from "@/components/ui/Form/FormInput";
@@ -48,7 +50,7 @@ const formSchema = z.object({
     .nonempty({ message: "Role is required." }),
 });
 
-const DoctorForm = () => {
+const HospitalForm = () => {
   return (
     <div className="w-full">
       <Form
@@ -58,7 +60,7 @@ const DoctorForm = () => {
       >
         <div className="flex justify-center">
           <div className="grid grid-cols-2 gap-5 mt-5">
-            <TextInput name="name" label="" placeholder="Search doctor" />
+            <TextInput name="hospital_name" label="" placeholder="Search Hospital" />
             <SelectInput
               name="location"
               label=""
@@ -88,4 +90,4 @@ const DoctorForm = () => {
   );
 };
 
-export default DoctorForm;
+export default HospitalForm;
