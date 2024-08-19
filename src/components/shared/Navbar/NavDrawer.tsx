@@ -1,17 +1,14 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 
 import {
   Sheet,
-  SheetClose,
   SheetContent,
-  SheetHeader,
-  SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet";
+} from "@/components/ui/shadcn/sheet";
 import { FaAlignLeft } from "react-icons/fa";
 import NavMenuItems from "./NavmenuItems";
+import { Button } from "@/components/ui/shadcn/button";
 
 const side = "left";
 

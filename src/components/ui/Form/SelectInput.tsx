@@ -76,4 +76,3 @@ export const SelectInput: React.FC<SelectInputProps> = ({
     />
   );
 };
-

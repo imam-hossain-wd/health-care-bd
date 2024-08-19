@@ -4,10 +4,9 @@ import {
   DropdownMenuItem,
   DropdownMenuLabel,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from "@/components/ui/shadcn/dropdown-menu";
 import { logo } from "@/utils/asstes";
 import Image from "next/image";
-import { FaUserCircle } from "react-icons/fa";
 
 export function NavDropdownMenu() {
   return (

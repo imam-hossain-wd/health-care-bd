@@ -28,4 +28,10 @@ export type IGenericErrorMessage = {
   message: string;
 };
 
+
+export type ISpecilization = {
+  name:string;
+  icon: string;
+}
+
 export const Gender = ["MALE", "FEMALE"];

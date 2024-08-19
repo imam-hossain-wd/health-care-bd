@@ -3,7 +3,12 @@
 import * as React from "react";
 import { useFormContext, Controller } from "react-hook-form";
 import { cn } from "@/lib/utils";
-import { FormControl, FormItem, FormLabel, FormMessage } from "../shadcn/form";
+import {
+  FormControl,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from "../shadcn/form";
 
 interface TextInputProps {
   name: string;

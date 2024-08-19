@@ -3,9 +3,14 @@
 import * as React from "react";
 import { useFormContext, Controller } from "react-hook-form";
 import { cn } from "@/lib/utils";
-import { FormControl, FormItem, FormLabel, FormMessage } from "../shadcn/form";
+import {
+  FormControl,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from "../shadcn/form";
 import { Input } from "../shadcn/input";
-import { Label } from "../shadcn/label";
+
 
 interface TextInputProps {
   name: string;
@@ -43,4 +48,3 @@ export const FileInput: React.FC<TextInputProps> = ({
     />
   );
 };
- 
