@@ -1,7 +1,7 @@
 "use client";
 
 import { Card, CardContent } from "@/components/ui/shadcn/card";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../ui/shadcn/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../../ui/shadcn/tabs";
 import SearchForm from "./DoctorForm";
 import DoctorForm from "./DoctorForm";
 

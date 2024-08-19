@@ -8,8 +8,8 @@ import {
 
   import Image from "next/image";
   import { Button } from "@/components/ui/shadcn/button";
-  import Searchbox from "@/components/Main/searchbox/Searchbox";
 import { homebanner } from "@/utils/asstes";
+import Searchbox from "../searchbox/Searchbox";
   
   
   const Homebanner = () => {
