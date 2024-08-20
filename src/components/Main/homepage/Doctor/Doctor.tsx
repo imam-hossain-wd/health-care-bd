@@ -1,3 +1,4 @@
+import Model from "@/components/shared/Model/Model";
 import { Button } from "@/components/ui/shadcn/button";
 import { Card } from "@/components/ui/shadcn/card";
 import Image from "next/image";
@@ -96,8 +97,11 @@ const Doctor = () => {
               <p className="text-[#32B9A9]">{doctor?.availability}</p>
             </div>
 
-            <div className="flex justify-around items-center mt-2">
-              <Button className="h-9">Book now</Button>
+            <div className="flex justify-around items-center mt-2 -ml-5">
+              <div>
+              <Model title={"Book Now"}/>
+              </div>
+              {/* <Button className="h-9">Book now</Button> */}
               <Button className="h-9">View Profile</Button>
             </div>
           </Card>
